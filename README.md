@@ -1,4 +1,4 @@
-# chatgpt-api
+<img src="https://github.com/ElmosHomie492/chatgpt-api/assets/36672021/56d00bfd-6bd1-44b2-ac92-c1c2eca56bac" alt="chatgpt-api-logo" width="700"/>
 
 ## About
 You already know what [ChatGPT](https://platform.openai.com/docs/introduction) is. This API is a simple implementation of the OpenAI API for GPT. In short...you can ask it questions!
