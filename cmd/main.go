@@ -9,7 +9,9 @@ import (
 )
 
 func main() {
-	gin.SetMode(gin.ReleaseMode)
+	if os.Getenv("ENV") == "prod" {
+		gin.SetMode(gin.ReleaseMode)
+	}
 
 	router := gin.Default()
 
