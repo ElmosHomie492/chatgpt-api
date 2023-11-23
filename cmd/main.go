@@ -39,7 +39,7 @@ func main() {
 	})
 
 	router.GET("/health", func(c *gin.Context) {
-		c.String(http.StatusOK, "Healthy API :)")
+		c.String(http.StatusOK, "Dom is dumb")
 	})
 
 	// Run the API on port 8080
